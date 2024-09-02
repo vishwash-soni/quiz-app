@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Cabin", sans-serif;
+    box-sizing: border-box; /* Added for better control of sizing */
+}
+
+body {
+    background-color: rgb(39, 38, 38);
+}
+
+.app {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 70px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-size: 25px;
+    color: gray;
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.btn {
+    background: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: black;
+    color: white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next_btn {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s;
+}
+
+#next_btn:hover {
+    background: black;
+    color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    .app {
+        width: 95%; /* Make the app take more space on small screens */
+        padding: 20px;
+        margin: 50px auto 0;
+    }
+
+    .app h1 {
+        font-size: 22px; /* Slightly smaller font for the title on small screens */
+        padding-bottom: 20px;
+    }
+
+    .quiz h2 {
+        font-size: 16px; /* Smaller font for the question on small screens */
+    }
+
+    .btn {
+        padding: 12px; /* Adjust button padding for smaller screens */
+    }
+
+    #next_btn {
+        padding: 12px; /* Adjust next button padding for smaller screens */
+        margin: 20px auto;
+    }
+}
+
+.correct{
+    background-color:green;
+    color: white;
+}
+.wrong{
+    background-color: red;
+    color: white;
+}
+#start_btn{
+    background: white;
+    color: black;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#start_btn:hover{
+    background-color: black;
+    color: white;
+}
