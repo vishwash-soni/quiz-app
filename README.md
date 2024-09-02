@@ -14,7 +14,7 @@ This is a simple Quiz Web App developed using HTML, CSS, and JavaScript. The app
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/vishwash-soni/quiz-web-app.git
+    git clone https://github.com/your-username/quiz-web-app.git
     ```
 2. Navigate to the project directory:
     ```bash
