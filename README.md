@@ -28,5 +28,6 @@ This is a simple Quiz Web App developed using HTML, CSS, and JavaScript. The app
 - **CSS**: Styling of the web app
 - **JavaScript**: Functionality and interactivity of the quiz
 
-## Folder Structure
+## Website :
+    https://quizsoni.netlify.app/
 
